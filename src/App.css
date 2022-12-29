@@ -41,3 +41,8 @@ h1{
   font-size: xx-large;
     color: blue;
 }
+img{
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}

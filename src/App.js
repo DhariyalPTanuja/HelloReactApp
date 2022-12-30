@@ -33,18 +33,38 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className="App">
-         {/* change in the userName reflected in the header Tag */}
+      <div className='App'>
+    <div className='AppOuter'>
+    <div className="AppHeader">
+      {/* change in the userName reflected in the header Tag */}
       <h1>Hello {this.state.userName} From BridgeLabz </h1>
-      
       <img src = {logo} onClick={this.onClick}
       alt= "The BridgeLabz logo: a Bridge to employment through lab works"/>
-    
-   <div>
+    <div>
     <input onChange={this.onNameChange} />
     <span className="error-output">{this.state.nameError}</span>
+      </div>
+  </div>
+  <div className='content'>
+   <p>At BridgeLabz, we're a community of </p>
+    <ul>
+      <li>technologies</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+    <p>Working together to keep the Tech Employability of Engineers alive and accessible . so Tech
+      Companies worldeide can get contributors and creators for Technology Solutions. We believe this act 
+      of human collaboration across an employability platform is essential to individual
+      growth and our collective future.</p> 
+  
+      <p>
+      To know about us ,visit <a href="https://www.bridgelabz.com">BridgeLabz</a> to learn even more about our mission
+    i.e. Employbility to all. </p>
    </div>
-     </div>
+
+  </div>  
+        </div>
+  
     );
   }
 }

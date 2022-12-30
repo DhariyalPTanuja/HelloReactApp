@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: blue;
+  height: 100vh;
 }
 
 .App-logo {
@@ -36,6 +37,19 @@
     transform: rotate(360deg);
   }
 }
+.AppOuter{
+  background-color: orange;
+  width: 50%;
+  height: 90%;
+  padding: 10px;
+  margin: auto;
+  align-items: center;
+  border: 3px solid black;
+}
+.AppHeader{
+  text-align: center;
+
+}
 h1{
   text-align: center;
   font-size: xx-large;
@@ -51,4 +65,7 @@ img{
   font-size: 12px;
   font-style: italic;
   color: red;
+}
+.content{
+  margin-left: 20px;
 }
